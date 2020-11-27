@@ -18,7 +18,7 @@ export * from './slick.component';
     ]
 })
 export class SlickModule {
-    static forRoot(): ModuleWithProviders {
+    static forRoot(): ModuleWithProviders<SlickModule>{
         return {
             ngModule: SlickModule,
         };
